@@ -611,7 +611,9 @@ private:
     void RegisterMenus()
     {
         FToolMenuOwnerScoped OwnerScoped(this);
-        UToolMenu* Menu = UToolMenus::Get()->ExtendMenu(TEXT("LevelEditor.MainMenu.Tools"));
+        UToolMenu* Menu = UToolMenus::Get()->ExtendMenu(
+            TEXT("MainFrame.MainMenu.Tools")
+        );
         FToolMenuSection& Section = Menu->FindOrAddSection(
             TEXT("FontTools"),
             FText::FromString(TEXT("Font Tools")),
