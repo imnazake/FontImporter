@@ -619,7 +619,7 @@ private:
         );
         Section.AddMenuEntry(
             TEXT("FontImporterOpen"),
-            FText::FromString(TEXT("Import Font Family...")),
+            FText::FromString(TEXT("Import Font Family")),
             FText::FromString(TEXT("Create composite font families from a directory of TTF/OTF files.")),
             FSlateIcon(),
             FUIAction(FExecuteAction::CreateRaw(this, &FFontImporterModule::OpenImporter)));
