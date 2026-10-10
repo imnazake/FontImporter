@@ -1,0 +1,30 @@
+# Unreal Engine generated data (including plugin build outputs)
+
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# IDE and user-local configuration
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.ipch
+
+# Python caches (for optional editor scripts)
+__pycache__/
+*.py[cod]
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

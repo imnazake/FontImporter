@@ -1,0 +1,19 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0.0",
+  "FriendlyName": "Font Importer",
+  "Description": "Import TTF/OTF font families into Font Face assets and a composite Font from an Unreal Editor tool.",
+  "Category": "Editor",
+  "CreatedBy": "Nazake",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "FontImporter",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ]
+}
